@@ -3,7 +3,10 @@
 pkgs.mkShell
 {
   nativeBuildInputs = with pkgs; [
-    node
-    gcc
+    nodejs
   ];
+
+  shellHook = ''
+    echo "On Dev Shell"
+  '';
 }
