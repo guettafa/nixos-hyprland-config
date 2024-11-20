@@ -82,6 +82,7 @@
    git
    hyprpaper
    htop
+   hyprshot
    gpicview
    dunst
   ];
