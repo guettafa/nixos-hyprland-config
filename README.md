@@ -10,7 +10,7 @@ nix develop .#node
 nix develop .#cpp
 ```
 
-### To add to flake registry * ( so you can simply to `nix develop myFlake#cpp`
+### To add to flake registry * so you can simply type `nix develop myFlake#cpp`
 registry.json can be found at `.config/nix/registry.json`
 ```sh
 nix registry add myFlake path/toFlakeFileForDevEnv/
