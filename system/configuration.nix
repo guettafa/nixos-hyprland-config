@@ -67,18 +67,20 @@
 
   # List packages installed in system profile. To search, run:
   # $ nix search wget
+
   environment.systemPackages = with pkgs; [
    vim 
-   firefox
+   chromium
    neofetch
    pipewire
    kitty
+   libnotify
    wofi
    dolphin
    waybar
    wget
    git
-   swww
+   hyprpaper
    htop
    gpicview
    dunst
