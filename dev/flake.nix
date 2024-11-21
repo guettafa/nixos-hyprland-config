@@ -16,6 +16,7 @@
         {
      	  buildInputs = [
 	    pkgs.gcc
+      pkgs.clang
  	  ];
 
 	  shellHook = ''

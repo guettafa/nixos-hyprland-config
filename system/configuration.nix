@@ -70,6 +70,7 @@
 
   environment.systemPackages = with pkgs; [
    vim 
+   unzip
    chromium
    neofetch
    pipewire
@@ -83,6 +84,7 @@
    hyprpaper
    htop
    hyprshot
+   hyprpicker
    gpicview
    dunst
   ];
@@ -103,6 +105,10 @@
 
   # Enable the OpenSSH daemon.
   # services.openssh.enable = true;
+  services.blueman.enable = true;
+
+  hardware.bluetooth.enable = true;
+  hardware.bluetooth.powerOnBoot = true;
   
   sound.enable = true;
   security.rtkit.enable = true;
