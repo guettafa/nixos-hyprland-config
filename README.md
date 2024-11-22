@@ -1,4 +1,4 @@
-# This is my NixOS configuration
+# This is my NixOS system configuration + ( some of my custom configurations )
 
 ## flake.nix for dev env is located in `/dev`
 ```sh
@@ -21,3 +21,10 @@ nix registry add myFlake path/toFlakeFileForDevEnv/
 # In system dir
 sudo nixos-rebuild switch -I nixos-config=./configuration.nix
 ```
+
+## Configurations for 
+- wofi
+- dunst
+- waybar
+- hypr
+### are located in the `config/` folder
