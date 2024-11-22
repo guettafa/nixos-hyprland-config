@@ -70,6 +70,7 @@
 
   environment.systemPackages = with pkgs; [
    vim 
+   vscodium
    unzip
    chromium
    neofetch

@@ -1,0 +1,14 @@
+font_family	iosevka
+bold_font 	auto
+# cursor		#3fb5ff
+font_size	13
+italic_font	auto
+# background	#101012
+# foreground	#ffffff
+window_padding_width 12
+
+
+# BEGIN_KITTY_THEME
+# Base2Tone Mall Dark
+include current-theme.conf
+# END_KITTY_THEME
